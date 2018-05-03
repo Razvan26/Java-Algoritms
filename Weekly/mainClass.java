@@ -60,9 +60,9 @@ public class mainClass {
 			try {
 				if(file.createNewFile()) {
 					if(file.exists()) {
-//						System.out.println("Fisierul a fost creat!");
+
 						if(file.canWrite() == true) {
-//							System.out.println("Fisierul este modificabil");
+
 							
 						}
 					}
